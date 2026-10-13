@@ -1,0 +1,23 @@
+{
+  "name": "chess-3d-arena",
+  "version": "1.0.0",
+  "description": "True 3D chess with interactive opening lessons and local AI",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node ai.test.js && node practice.test.js && node study-progress.test.js && node match-loop.test.js && node catalog.test.js",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "three": "^0.186.1",
+    "vite": "^8.3.4"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

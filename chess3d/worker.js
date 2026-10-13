@@ -1,0 +1,1 @@
+import {choose} from './ai.js'; self.onmessage=({data})=>{try{self.postMessage({...choose(data.fen,data.depth),id:data.id});}catch(e){self.postMessage({id:data.id,error:e.message});}};

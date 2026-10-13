@@ -1,0 +1,510 @@
+[
+  {
+    "id": "italian",
+    "name": "Italian Game",
+    "color": "white",
+    "moves": [
+      [
+        "e4",
+        "Take space in the center and open diagonals for the f1 bishop and queen."
+      ],
+      [
+        "e5",
+        "Contest the center with e5 and open the f8 bishop’s diagonal."
+      ],
+      [
+        "Nf3",
+        "Develop the knight and attack Black’s e5 pawn."
+      ],
+      [
+        "Nc6",
+        "Develop the b8 knight and defend the e5 pawn attacked by Nf3."
+      ],
+      [
+        "Bc4",
+        "Aim the bishop at f7, initially protected only by the king."
+      ],
+      [
+        "Bc5",
+        "Develop the bishop onto an active diagonal toward White’s f2 pawn."
+      ],
+      [
+        "c3",
+        "Support a future d4 push and give the bishop a retreat route."
+      ],
+      [
+        "Nf6",
+        "Develop the g8 knight and put pressure on White’s e4 pawn."
+      ],
+      [
+        "d3",
+        "Defend e4 with d3 and open the c1 bishop’s diagonal."
+      ],
+      [
+        "d6",
+        "Defend e5 with d6 and open the c8 bishop’s diagonal."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ]
+    ],
+    "plan": "Develop the bishop toward f7, castle, and prepare d4 with pawn support."
+  },
+  {
+    "id": "ruy-lopez",
+    "name": "Ruy Lopez",
+    "color": "white",
+    "moves": [
+      [
+        "e4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "e5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nc6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Bb5",
+        "Pressure the c6 knight that defends e5; this does not win e5 immediately."
+      ],
+      [
+        "a6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Ba4",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ],
+      [
+        "Be7",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "Re1",
+        "Bring the rook toward a file supporting central play."
+      ],
+      [
+        "b5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Bb3",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "d6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c3",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ]
+    ],
+    "plan": "Pressure the defender of e5, castle, then prepare c3 and d4."
+  },
+  {
+    "id": "queens-gambit",
+    "name": "Queen’s Gambit Declined",
+    "color": "white",
+    "moves": [
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c4",
+        "Challenge d5 with the c-pawn while keeping the d4 pawn in the center."
+      ],
+      [
+        "e6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nc3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Be7",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "Bf4",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ],
+      [
+        "e3",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ]
+    ],
+    "plan": "Offer the c-pawn to contest the center; develop pieces behind d4."
+  },
+  {
+    "id": "london",
+    "name": "London System",
+    "color": "white",
+    "moves": [
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "g6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Bf4",
+        "Develop the c1 bishop before e3 blocks its diagonal."
+      ],
+      [
+        "Bg7",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "e3",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Bd3",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ]
+    ],
+    "plan": "Develop the bishop outside the pawn chain, support the center, and finish king safety."
+  },
+  {
+    "id": "sicilian",
+    "name": "Sicilian Defense",
+    "color": "black",
+    "moves": [
+      [
+        "e4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c5",
+        "Challenge d4 from the flank rather than mirroring e4 with e5."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "d6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "cxd4",
+        "Capture to resolve central tension and reshape the pawn structure."
+      ],
+      [
+        "Nxd4",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nc3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "a6",
+        "Control b5 and prepare possible queenside expansion."
+      ]
+    ],
+    "plan": "Contest d4 from the flank, develop actively, and prepare queenside counterplay."
+  },
+  {
+    "id": "najdorf",
+    "name": "Sicilian Najdorf: English Attack",
+    "color": "black",
+    "moves": [
+      [
+        "e4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "d6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "cxd4",
+        "Capture to resolve central tension and reshape the pawn structure."
+      ],
+      [
+        "Nxd4",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nc3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "a6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Be3",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "e5",
+        "Gain central space and attack the knight on d4."
+      ],
+      [
+        "Nb3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Be6",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "f3",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ]
+    ],
+    "plan": "Use a6 to control b5 and prepare active counterplay against White’s attacking setup."
+  },
+  {
+    "id": "french",
+    "name": "French Defense",
+    "color": "black",
+    "moves": [
+      [
+        "e4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "e6",
+        "Prepare d5 with support from e6, accepting a less active c8 bishop."
+      ],
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nc3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "e5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nfd7",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "f4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c5",
+        "Attack the d4 base of White’s advanced pawn chain."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Nc6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ]
+    ],
+    "plan": "Challenge White’s center with d5, then attack its pawn-chain base with c5."
+  },
+  {
+    "id": "caro-kann",
+    "name": "Caro-Kann Defense",
+    "color": "black",
+    "moves": [
+      [
+        "e4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "c6",
+        "Prepare d5 without immediately blocking the c8 bishop."
+      ],
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "e5",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Bf5",
+        "Develop the light-squared bishop outside the pawn chain before e6."
+      ],
+      [
+        "c3",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "e6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Be2",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ]
+    ],
+    "plan": "Support d5 with c6 and develop the light-squared bishop before playing e6."
+  },
+  {
+    "id": "kings-indian",
+    "name": "King’s Indian Defense",
+    "color": "black",
+    "moves": [
+      [
+        "d4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nf6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "c4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "g6",
+        "Prepare the g7 bishop fianchetto on the long diagonal."
+      ],
+      [
+        "Nc3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "Bg7",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "e4",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "d6",
+        "Use this pawn move to claim space, support the center, or prepare development."
+      ],
+      [
+        "Nf3",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ],
+      [
+        "Be2",
+        "Activate the bishop on a useful diagonal while building the opening setup."
+      ],
+      [
+        "e5",
+        "Challenge White’s broad center with e5 after getting the king safe."
+      ],
+      [
+        "O-O",
+        "Castle kingside to shelter the king and activate a rook."
+      ],
+      [
+        "Nc6",
+        "Reposition the knight to influence central squares and support the opening setup."
+      ]
+    ],
+    "plan": "Fianchetto the bishop, castle, and challenge White’s large center with e5."
+  }
+]

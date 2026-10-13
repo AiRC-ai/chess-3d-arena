@@ -1,0 +1,3 @@
+import {lessons,describe} from './catalog.js';
+export {lessons};
+export class LessonPlayer{constructor(chess){this.chess=chess;this.lesson=lessons[0];this.cursor=0;}reset(id=this.lesson.id){this.lesson=lessons.find(l=>l.id===id)||lessons[0];this.cursor=0;this.previous=null;this.chess.reset();}next(){if(this.cursor>=this.lesson.moves.length)return null;const [san,annotation]=this.lesson.moves[this.cursor];const why=annotation||describe(this.chess,san);const move=this.chess.move(san);this.cursor++;this.previous={move,why,san};return this.previous;}get done(){return this.cursor===this.lesson.moves.length;}}

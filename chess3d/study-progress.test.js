@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';
+import {blank,validate,record,weakest} from './study-progress.js';
+let d=blank();record(d,'a',false);record(d,'a',true,true);assert.deepEqual(d.stats.a,{attempts:2,correct:1,completions:1});d.favorites=['a','a','unknown'];let v=validate(d,['a','b']);assert.deepEqual(v.favorites,['a']);assert.equal(weakest([{id:'a'},{id:'b'}],v),'a');assert.deepEqual(validate(JSON.parse(JSON.stringify(v)),['a','b']),v);for(const bad of [null,{...d,version:2},{...d,stats:{a:{attempts:1,correct:2,completions:0}}},{...d,stats:{a:{attempts:-1,correct:0,completions:0}}}])assert.throws(()=>validate(bad,['a']));console.log('PASS progress scoring, favorites, weakest lesson, backup roundtrip and invalid restore rejection');

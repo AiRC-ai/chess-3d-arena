@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chess 3D</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><b>CHESS <span>3D</span></b><small>Learn. Play. Watch.</small></header>
+<main><section id="viewport"><div class="badge">Drag to rotate · Scroll to zoom</div></section>
+<aside><label class="mode-label">Choose how to play<select id="mode"><option value="lesson">Learn an opening</option><option value="human">Play against AI</option><option value="watch">Watch AI vs AI</option></select></label>
+<div id="status" role="status">Ready</div>
+<section id="lesson-panel">
+<label>Find an opening<input id="search" type="search" placeholder="Search all openings…"></label>
+<label>Choose a lesson<select id="opening"></select></label>
+<details class="compact"><summary>Filter the library</summary><div class="filters"><select id="catalog-kind" aria-label="Lesson category"><option value="all">Entire catalog</option><option value="guided">Guided lessons</option><option value="lines">Opening variations</option><option value="favorites">Favorites</option></select><select id="catalog-side" aria-label="Lesson side"><option value="all">Both sides</option><option value="white">White</option><option value="black">Black</option></select></div><small id="catalog-count"></small></details>
+<section class="lesson-heading"><h2 id="lesson-name"></h2><div class="why-label">What this lesson teaches</div><p id="lesson-purpose"></p></section><div class="lesson-track"><i id="lesson-fill"></i></div><div id="lesson-meta"></div><div id="explanation" role="status"></div><section id="move-choices" aria-label="Choose your next move"><h3>Choose your next move</h3><div id="choice-buttons"></div></section>
+<div class="actions essentials"><button id="hint">Hint</button><button id="next">Reveal move</button><button id="replay">Restart lesson</button><button id="auto">Auto-play</button><button id="lesson-pause">Pause</button></div>
+<details><summary>Lesson options</summary><label>How to learn<select id="lesson-type"><option value="practice">Practice against the opponent</option><option value="demo">Watch a demonstration</option></select></label><label id="pace-label">Demonstration pace<select id="pace"><option value="2500">2.5 seconds</option><option value="5000" selected>5 seconds</option><option value="8000">8 seconds</option></select></label></details>
+<details><summary>Progress & favorites</summary><div id="progress"></div><div class="actions"><button id="favorite">Favorite</button><button id="weakest">Practice weakest</button></div></details>
+</section>
+<div class="actions essentials" id="game-actions"><button id="start">Start / Resume</button><button id="pause">Pause</button><button id="new">New game</button></div>
+<div class="actions secondary"><button id="undo">Undo</button><button id="camera">Reset view</button><button id="flip">Flip board</button></div>
+<details id="move-entry"><summary>Type a move instead</summary><form id="move-form"><input id="move-input" aria-label="Move" placeholder="e2e4 or Nf3" autocomplete="off"><button>Play</button></form></details>
+<details><summary>Moves & position</summary><div class="evaluation"><span>Position estimate</span><b id="eval">0.00</b></div><div id="bar"><i></i></div><div id="history"></div><small>Estimate from the local engine, not Stockfish.</small></details>
+<details><summary>Settings & save</summary><label id="strength-label">AI strength<select id="depth"><option value="1">Fast</option><option value="2" selected>Balanced</option><option value="3">Deep</option></select></label><div class="actions"><button id="backup">Save progress</button><button id="pgn">Save moves (PGN)</button></div><label>Restore progress<input id="restore" type="file" accept=".json,application/json"></label><small id="study-notice" role="status">Progress is saved in this browser. Hints and reveals do not count as unassisted correct.</small></details>
+</aside></main><script type="module" src="/src.js"></script></body></html>
