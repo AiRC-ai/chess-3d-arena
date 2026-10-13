@@ -48,4 +48,7 @@ The catalog contains opening sequences, not complete games. Some lines are short
 Progress uses origin-specific browser localStorage. Export it before changing ports, browsers or devices. No external service is required during play.
 
 ## Credits
+
+**Lesson and opening-catalog source: [ChessStudio by leglerisaac](https://github.com/leglerisaac/ChessStudio).** The nine guided lesson move sequences and complete opening catalog were adapted from ChessStudio. Thank you to its creator for sharing the project. Explanations here are independently written or generated; ChessStudio is the source for the lesson selection and sequences.
+
 See NOTICE.md. Original app code is ISC licensed; opening data originates from the CC0 Lichess chess-openings dataset via ChessStudio. No ChessStudio SVG assets are included; 3D pieces are procedural geometry.
